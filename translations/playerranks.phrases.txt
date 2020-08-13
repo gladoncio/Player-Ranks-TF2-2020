@@ -1,0 +1,599 @@
+"Phrases"
+{
+    "pr_db_connected"
+    {
+        "#format"   "{1:s}"
+        "es"        "Conectado a la base de datos {1} correctamente!"
+        "fr"        "Connecte a la base de donnees {1} avec succes!"
+        "en"        "Connected to {1} database successfully!"
+    }
+
+    "pr_updateavailable"
+    {
+        "es"        "Una actualización está disponible y descargándose."
+        "fr"        "Une mise a jour est disponible et se telecharge."
+        "en"        "An update is available and downloading."
+    }
+
+    "pr_updatesuccess"
+    {
+        "es"        "Clasificación de jugadores ha sido actualizada correctamente."
+        "fr"        "Player Ranks a ete mise a jour avec succes."
+        "en"        "Player Ranks has been updated successfully."
+    }
+
+    "pr_commandsave"
+    {
+        "es"        "Todas las puntuaciones han sido guardadas correctamente."
+        "fr"        "Tous les scores ont ete sauvegardes avec succes."
+        "en"        "All scores were saved successfully."
+    }
+
+    "pr_commandpointamountinvalid"
+    {
+        "es"        "Cantidad de Puntos no válida."
+        "fr"        "Le nombre de points n'est pas valide."
+        "en"        "Point amount is invalid."
+    }
+
+    "pr_reset"
+    {
+        "es"        "La base de datos ha sido reiniciada correctamente."
+        "en"        "The database has been reset successfully."
+    }
+
+    "pr_commandrewardreceive"
+    {
+        "#format"   "{1:s},{2:.2f}"
+        "es"        "{1} te ha recompensado con {2} puntos."
+        "fr"        "{1} vous a récompensé avec {2} point(s)."
+        "en"        "{1} rewarded you with {2} points."
+    }
+
+    "pr_commandrewardreceiveanonymous"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Un admin te ha recompensado con {1} puntos."
+        "fr"        "Un administrateur vous a récompensé avec {1} point(s)."
+        "en"        "An admin rewarded you with {1} points."
+    }
+
+    "pr_commandrevokereceive"
+    {
+        "#format"   "{1:s},{2:.2f}"
+        "es"        "{1} te ha retirado {2} de tus puntos."
+        "fr"        "{1} vous a retiré {2} point(s)."
+        "en"        "{1} revoked {2} of your points."
+    }
+
+    "pr_bot_tag"
+    {
+        "en"        "(Bot)"
+    }
+
+    "pr_commandrevokereceiveanonymous"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Un admin ha anulado {1} de tus puntos."
+        "fr"        "Un administrateur vous a retiré {1} point(s)."
+        "en"        "An admin revoked {1} of your points."
+    }
+
+    "pr_list_select_option"
+    {
+        "es"        "Seleccione una opción:"
+        "fr"        "Sélectionnez une option:"
+        "en"        "Select an option:"
+    }
+
+    "pr_list_button_show_top_players"
+    {
+        "es"        "Ver los mejores jugadores."
+        "fr"        "Afficher les meilleurs joueurs."
+        "en"        "Show top players."
+    }
+
+    "pr_list_top_players_label"
+    {
+        "es"        "Mejores Jugadores:"
+        "fr"        "Meilleurs Joueurs:"
+        "en"        "Top Players:"
+    }
+
+    "pr_list_zero_top_players"
+    {
+        "es"        "No existen jugadores en la lista de Mejores Jugadores!"
+        "fr"        "Pas de joueur(s) dans la top liste!"
+        "en"        "No players in the top players list!"
+    }
+
+    "pr_list_top_player"
+    {
+        "#format"   "{1:i},{2:s},{3:.2f}"
+        "en"        "#{1}. {2} ({3})"
+    }
+
+    "pr_list_player"
+    {
+        "#format"   "{1:s},{2:.2f}"
+        "en"        "{1} ({2})"
+    }
+
+    "pr_rankme_normal"
+    {
+        "#format"   "{1:i},{2:.i},{3:.2f}"
+        "es"        "Estas clasificado el #{1} de {2} jugadores. Con {3} puntos."
+        "fr"        "Vous êtes classé #{1} sur {2} joueur(s) avec {3} point(s)."
+        "en"        "You are ranked #{1} out of {2} players with {3} points."
+    }
+
+    "pr_rankme_belowthreshold"
+    {
+        "#format"   "{1:.2f},{2:.2f}"
+        "es"        "Tu estas Sin Clasificar con {1} puntos. Se requiere que tengas al menos {2} puntos para aparecer en la clasificación."
+        "fr"        "Vous n'êtes pas classé avec {1} point(s). Vous avez besoin d'un minimum de {2} point(s) pour être classé."
+        "en"        "You are unranked with {1} points. You require a minimum of {2} points to be ranked."
+    }
+
+    "pr_rankme_updating"
+    {
+        "#format"   "{1:.2f},{2:i}"
+        "es"        "Estas Sin Clasificar con {1} puntos. Podras ver tu clasificación en {2} segundos."
+        "fr"        "Vous n'êtes pas classé avec {1} point(s). Vous serez en mesure de voir votre rang dans {2} seconde(s)."
+        "en"        "You are unranked with {1} points. You will be able to see your rank in {2} seconds."
+    }
+
+    "pr_stats_1"
+    {
+        "#format"   "{1:i},{2:i},{3:i}"
+        "es"        "{1} asesinados, {2} muertes, {3} asistencias."
+        "fr"        "{1} tué(s), {2} mort(s), {3} aide(s)."
+        "en"        "{1} kills, {2} deaths, {3} assists."
+    }
+
+    "pr_stats_2"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Relación Asesinatos-Muertes: {1}."
+        "fr"        "Rapport Tués-Morts: {1}."
+        "en"        "Kill-death ratio: {1}."
+    }
+
+    "pr_stats_3"
+    {
+        "#format"   "{1:i},{2:i},{3:i}"
+        "es"        "{1} disparos a la cabeza, {2} puñaladas, {3} muertes fingidas."
+        "fr"        "{1} headshot(s), {2} backstab(s), {3} fausse(s) mort(s)."
+        "en"        "{1} headshots, {2} backstabs, {3} feigned deaths."
+    }
+
+    "pr_stats_4"
+    {
+        "#format"   "{1:i},{2:s}"
+        "es"        "{1} {2} asesinatos."
+        "fr"        "{1} {2} tué(s)."
+        "en"        "{1} {2} kills."
+    }
+
+    "pr_stats_5"
+    {
+        "#format"   "{1:i}"
+        "es"        "Nivel más alto Asesinado: {1}."
+        "fr"        "Le plus haut niveau tué: {1}."
+        "en"        "Highest level killed: {1}."
+    }
+
+    "pr_stats_6"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Tiempo jugado: {1} horas."
+        "fr"        "Temps joué: {1} heure(s)."
+        "en"        "Time played: {1} hours."
+    }
+
+    "pr_stats_7"
+    {
+        "#format"   "{1:i},{2:i},{3:i},{4:i},{5:i}"
+        "es"        "{1} bandera(s) capturada(s), {2} bandera(s) defendida(s). {3} punto(s) capturada(s) y {4} punto(s) defendida(s). Jugadas {5} rondas completas."
+        "en"        "{1} flag(s) captured, {2} flag(s) defended. {3} point(s) captured and {4} point(s) defended. Played {5} full rounds."
+    }
+
+    "pr_stats_8"
+    {
+        "#format"   "{1:i},{2:i}"
+        "es"        "Dominados {1} jugadores y han sido dominados {2} veces."
+        "en"        "Dominated {1} player(s) and was dominated {2} times."
+    }
+
+    "pr_rank_normal"
+    {
+        "#format"   "{1:s},{2:i},{3:.2f},{4:.2f}"
+        "es"        "{1} esta clasificado el #{2}, ha ganado {3} puntos en esta ronda, y tiene {4} puntos en total."
+        "fr"        "{1} est classé #{2}, a gagné {3} point(s) ce round, et avais {4} point(s) au totale."
+        "en"        "{1} is ranked #{2}, has earned {3} points this round, and has {4} points total."
+    }
+
+    "pr_rank_bot"
+    {
+        "#format"   "{1:s},{2:.2f}"
+        "es"        "{1} tiene {2} puntos en esta partida."
+        "fr"        "{1} avais {2} point(s) cette partie."
+        "en"        "{1} has {2} points this game."
+    }
+
+    "pr_rank_unranked"
+    {
+        "#format"   "{1:s},{2:.2f},{3:.2f}"
+        "es"        "{1} esta Sin Clasificar, ha ganado {2} puntos en esta ronda, y tiene {3} puntos en total."
+        "fr"        "{1} n'est pas classé, a gagné {2} point(s) ce round, et avais {3} point(s) au totale."
+        "en"        "{1} is unranked, has earned {2} points this round, and has {3} points total."
+    }
+
+    "pr_top_rank_offline"
+    {
+        "#format"   "{1:s},{2:i},{3:i},{4:.2f},{5:s}"
+        "es"        "{1} esta clasificado el #{2} de {3} jugadores, y tiene {4} puntos y fue visto por última vez {5}."
+        "fr"        "{1} est classé #{2} sur {3} joueur(s), avais {4} point(s) et a été vu il y a {5}."
+        "en"        "{1} is ranked #{2} out of {3} players, has {4} points and was last seen {5}."
+    }
+
+    "pr_top_rank_online"
+    {
+        "#format"   "{1:s},{2:i},{3:i},{4:.2f}"
+        "es"        "{1} esta clasificado el #{2} de {3} jugadores, y tiene {4} puntos y esta en el servidor actualmente."
+        "fr"        "{1} est classé #{2} sur {3} joueur(s), avais {4} point(s) et est sur ​​le serveur en ce moment."
+        "en"        "{1} is ranked #{2} out of {3} players, has {4} points and is on the server right now."
+    }
+
+    "pr_enabled_true"
+    {
+        "es"        "Ranking esta ahora activado."
+        "fr"        "Le classement est désormais activé."
+        "en"        "Ranking is now enabled."
+    }
+
+    "pr_loaded"
+    {
+        "es"        "Cargado correctamente!"
+        "fr"        "Chargé avec succès!"
+        "en"        "Loaded successfully!"
+    }
+
+    "pr_enabled_false"
+    {
+        "es"        "Ranking deshabilitado, esperando que entre un jugador más."
+        "en"        "Ranking is disabled, waiting for one more player to join."
+        "fr"        "Le classement est désactivé, en attendant un joueur supplémentaire."
+    }
+	
+    "pr_notify_kill_player"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar a un jugador."
+        "en"        "You earned {1} points for killing a player."
+    }
+
+    "pr_notify_kill_admin"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar un admin."
+        "en"        "You earned {1} points for killing an admin."
+    }
+
+    "pr_roundbonus_notify"
+    {
+        "fr"        "Vous êtes éligible pour le bonus round, rester tout le round pour recevoir le bonus."
+        "en"        "You are eligible for the round bonus, stay the whole round to receive the bonus."
+    }
+
+    "pr_roundbonus_notifyminimum"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Usted puede acceder a la ronda especial, gane {1} puntos por estar la ronda completa."
+        "fr"        "Vous êtes éligible pour le bonus round, gagner {1} point(s) et rester tout le round pour recevoir le bonus."
+        "en"        "You are eligible for the round bonus, earn {1} points and stay for the whole round to receive the bonus."
+    }
+
+    "pr_roundbonus_latenotify"
+    {
+        "fr"        "Vous l'avez fait juste à temps pour le round bonus, rester tout le round et vous aller recevoir le bonus."
+        "en"        "You made it just in time for the round bonus, stay for the whole round and you'll receive the bonus."
+    }
+
+    "pr_roundbonus_latenotifyminimum"
+    {
+        "#format"   "{1:.2f}"
+        "fr"        "Vous l'avez fait juste à temps pour le round bonus, gagner {1} point(s) et rester tout le round pour recevoir le bonus."
+        "en"        "You made it just in time for the round bonus, earn {1} points and stay for the whole round to receive the bonus."
+    }
+
+    "pr_notify_kill_sentry"
+    {
+        "#format"   "{1:.2f},{2:i}"
+        "es"        "Has ganado {1} puntos por destruir una sentinela de nivel {2}."
+        "en"        "You earned {1} points for destroying a level {2} sentry."
+    }
+
+    "pr_notify_kill_minisentry"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por destruir una mini-sentinela."
+        "en"        "You earned {1} points for destroying a mini-sentry."
+    }
+
+    "pr_roundbonus_received"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has recibido {1} puntos por jugar la ronda completa."
+        "fr"        "Vous avez reçu {1} point(s) pour avoir jouer tout le round."
+        "en"        "You've received {1} points for playing the entire round."
+    }
+
+    "pr_notify_kill_dispenser"
+    {
+        "#format"   "{1:.2f},{2:i}"
+        "es"        "Has ganado {1} puntos por destruir un dispensador de nivel {2}."
+        "en"        "You earned {1} points for destroying a level {2} dispenser."
+    }
+
+    "pr_roundend_roundpoints"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos en esta ronda."
+        "fr"        "Vous avez gagné {1} point(s) ce round."
+        "en"        "You've earned {1} points this round."
+    }
+
+    "pr_roundend_totalpoints"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Tienes {1} puntos en total."
+        "fr"        "Vous avez {1} point(s) au total."
+        "en"        "You have {1} points in total."
+    }
+	
+    "pr_msg_join"
+    {
+        "#format"   "{1:s},{2:i},{3:i}"
+        "es"        "{1} ocupa el puesto #{2} de {3} jugadores."
+        "en"        "{1} is ranked #{2} out of {3} players."
+        "fr"        "{1} est classé #{2} sur {3} joueur(s)."
+    }
+	
+    "pr_notify_kill_teleporter"
+    {
+        "#format"   "{1:.2f},{2:i}"
+        "es"        "Has ganado {1} puntos por destruir un teleportador de nivel {2}."
+        "en"        "You earned {1} points for destroying a level {2} teleporter."
+    }
+
+    "pr_notify_capture_flag"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por capturar la inteligencia."
+        "en"        "You earned {1} points for capturing the intelligence."
+    }
+
+    "pr_notify_defend_flag"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por defender la inteligencia."
+        "en"        "You earned {1} points for defending the intelligence."
+    }
+
+    "pr_boss_killed"
+    {
+        "#format"   "{1:.2f},{2:s}"
+        "es"        "Has sido recompensado con {1} puntos por defender {2}."
+        "fr"        "Vous avez été récompensé de {1} point(s) pour avoir vaincu {2}."
+        "en"        "You were rewarded {1} points for defeating {2}."
+    }
+
+    "pr_boss_spawned"
+    {
+        "#format"   "{1:s},{2:.2f}"
+        "es"        "{1} esta aquí! Defiendelo para ganar {2} puntos."
+        "fr"        "{1} est apparu! Battez-le pour gagner {2} point(s)."
+        "en"        "{1} is here! Defeat him to earn {2} points."
+    }
+
+    "pr_notify_capture_point"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos par capturar el Punto de Control."
+        "en"        "You earned {1} points for capturing the point."
+    }
+
+    "pr_invalid_selection"
+    {
+        "es"        "El jugador que ha seleccionado ya no se encuentra en el servidor."
+        "fr"        "Le joueur que vous avez sélectionné n'est pas sur le serveur."
+        "en"        "The player you've selected isn't on the server."
+    }
+
+    "pr_rankmenu_disabled"
+    {
+        "es"        "El menú de Clasificación está desactivado por un administrador."
+        "fr"        "Le menu des classements a été désactivé par un administrateur."
+        "en"        "The rank menu has been disabled by an administrator."
+    }
+
+    "pr_notify_defend_point"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por defender el Punto de Control."
+        "en"        "You earned {1} points for defending the point."
+    }
+
+    "pr_notify_teleport"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por teletransportar a un jugador."
+        "en"        "You earned {1} points for teleporting a player."
+    }
+
+    "pr_notify_kill_bot"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar a un bot."
+        "en"        "You earned {1} points for killing a bot."
+    }
+
+    "pr_notify_kill_bot_headshot"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar a un bot con un tiro en la cabeza."
+        "en"        "You earned {1} points for killing a bot with a headshot."
+    }
+
+    "pr_notify_kill_bot_backstab"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por apuñalar a un bot por la espalda."
+        "en"        "You earned {1} points for killing a bot with a backstab."
+    }
+
+    "pr_notify_kill_player_headshot"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar a un jugador con un tiro en la cabeza."
+        "en"        "You earned {1} points for killing a player with a headshot."
+    }
+
+    "pr_notify_kill_player_backstab"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por apuñalar a un jugador por la espalda."
+        "en"        "You earned {1} points for killing a player with a backstab."
+    }
+
+    "pr_notify_kill_admin_headshot"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar un admin con un tiro en la cabeza."
+        "en"        "You earned {1} points for killing an admin with a headshot."
+    }
+
+    "pr_notify_kill_admin_backstab"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar un admin con puñalada por la espalda."
+        "en"        "You earned {1} points for killing an admin with a backstab."
+    }
+
+    "pr_notify_kill_assist_bot"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por asistir en la muerte de un Bot."
+        "en"        "You earned {1} points for assisting in a bot kill."
+    }
+
+    "pr_notify_kill_assist_player"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por asistencia de muerte de un Jugador."
+        "en"        "You earned {1} points for assisting in a player kill."
+    }
+
+    "pr_notify_kill_assist_admin"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por asistir en la muerte de un admin."
+        "en"        "You earned {1} points for assisting in an admin kill."
+    }
+
+    "pr_search_results_menu_label"
+    {
+        "es"        "Resultados de Búsqueda:"
+        "en"        "Search Results:"
+    }
+
+    "pr_search_noresults"
+    {
+        "es"        "No encuentro ningún jugador con ese nombre o Steam ID."
+        "en"        "Couldn't find any players with that name or Steam ID."
+    }
+
+    "pr_search_refine"
+    {
+        "#format"   "{1:i}"
+        "es"        "La búsqueda solo mostrará hasta {1} resultados. Acota tu búsqueda escribiendo todo o más completo el nombre."
+        "en"        "The search will only display up to {1} results. Refine your search by typing in a whole or more complete name."
+    }
+
+    "pr_search_disabled"
+    {
+        "es"        "Lo lamento! La búsqueda esta desactivada en este servidor."
+        "en"        "Sorry! Searching is disabled on this server."
+    }
+
+    "pr_hud_round_points"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Puntos de Ronda: {1}"
+        "en"        "Round points: {1}"
+    }
+
+    "pr_exempt_enable"
+    {
+        "es"        "Estas ahora exento de seguimiento en la puntuación."
+        "en"        "You are now exempt from score tracking."
+    }
+
+    "pr_exempt_disable"
+    {
+        "es"        "Ya no estas exento de seguimiento en la puntuación."
+        "en"        "You are no longer exempt from score tracking."
+    }
+
+    "pr_notify_kill_bot_deflect"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar a un bot con un proyectil desviado."
+        "en"        "You earned {1} points for killing a bot with a deflected projectile."
+    }
+
+    "pr_notify_kill_player_deflect"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar a un jugador con un proyectil desviado. "
+        "en"        "You earned {1} points for killing a player with a deflected projectile."
+    }
+
+    "pr_notify_kill_admin_deflect"
+    {
+        "#format"   "{1:.2f}"
+        "es"        "Has ganado {1} puntos por matar un admin desviando un proyectil."
+        "en"        "You earned {1} points for killing an admin with a deflected projectile."
+    }
+
+    "pr_reset_monthly"
+    {
+        "es"        "El reinicio Mensual ha sido realizado."
+        "en"        "Monthly reset has been performed."
+    }
+
+    "pr_reset_yearly"
+    {
+        "es"        "El reinicio Anual ha sido realizado."
+        "en"        "Yearly reset has been performed."
+    }
+
+    "pr_resetmode_changed"
+    {
+        "es"        "El modo de restablecimiento ha sido cambiado. La base de datos no sera restablecida automáticamente durante este mes o año, para prevenir un reinicio accidental."
+        "en"        "The reset mode has been changed. The database will not perform an automatic reset for this month or year to prevent accidental reset."
+    }
+
+    "pr_resetmode_changed_2"
+    {
+        "es"        "Si quiere realizar un restablecimiento de estadisticas ahora, escribe el comando: \&quot;pr_reset\&quot;"
+        "en"        "If you would like to perform the reset now, run the command: pr_reset"
+    }
+	
+	"pr_resetmode_disabled"
+	{
+		"en"		"Reset mode has been disabled. Make sure you set this in playerranks config file."
+	}
+
+}
