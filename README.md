@@ -1,4 +1,5 @@
 # Player-Ranks-TF2-2020
+This plugin is out of support because it does not compile correctly in the new syntax and is full of errors, which is why I have left the repository out of support. If you would like to see a new version that is completely mine and is in development, you can see https: //github.com/gladoncio/tf2_stats_2024
 
 This plugin has been compiled with sourcemod 1.11
 It is an update of https://forums.alliedmods.net/showthread.php?p=2047117
@@ -7,6 +8,8 @@ The previous website has been changed for a responsive one based on boopstrap 4 
 
 https://cdn.discordapp.com/attachments/507713793611137054/743345066336321586/unknown.png
 # COMMANDS:
+
+
 
 !rank or !ranks - Shows a menu with a list of current players and a top ten submenu, if you select a player it will tell you their ranking number, round point amount, and total point count.
 
