@@ -1,5 +1,5 @@
 # Player-Ranks-TF2-2020
-This plugin is out of support because it does not compile correctly in the new syntax and is full of errors, which is why I have left the repository out of support. If you would like to see a new version that is completely mine and is in development, you can see https: //github.com/gladoncio/tf2_stats_2024
+# This plugin is out of support because it does not compile correctly in the new syntax and is full of errors, which is why I have left the repository out of support. If you would like to see a new version that is completely mine and is in development, you can see https: //github.com/gladoncio/tf2_stats_2024
 
 This plugin has been compiled with sourcemod 1.11
 It is an update of https://forums.alliedmods.net/showthread.php?p=2047117
